@@ -1,0 +1,19 @@
+
+
+/* having .module in the file name allows us to tell vite/react to use scoped css class names. */
+
+li {
+    border: solid black 3px;
+    width: 35vw;
+    padding: 4vw;
+    list-style-type: none;
+}
+
+.author {
+    border-bottom: solid white 1px;
+    display: inline-block;
+}
+
+.text {
+    display: block;
+}
